@@ -1,5 +1,3 @@
----
-
 ### **HTB Machine "Cap" Write-up**
 
 #### **1. Machine Overview**
@@ -117,10 +115,3 @@ uid=0(root) gid=1000(utente)
   └── Prevention-Guide.md
   ```
 
-**Formattazione Professionale**:  
-- Usa [Markdown](https://www.markdownguide.org/) per titoli, blocchi di codice e tabelle
-- Includi badge dinamici con [Shields.io](https://shields.io/):  
-  ```
-  ![HTB Difficulty](https://img.shields.io/badge/Difficulty-Easy-green)
-  ![CVE](https://img.shields.io/badge/CWE-639%20(IDOR)-red)
-  ```
