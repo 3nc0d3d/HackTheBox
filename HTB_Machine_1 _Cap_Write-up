@@ -101,17 +101,3 @@ uid=0(root) gid=1000(utente)
 1. **FTP**: Replace with SFTP/FTPS
 2. **IDOR**: Implement authorization checks
 3. **Capabilities**: Remove `CAP_SETUID` from Python
-
----
-
-### **Note Finali/Additional Notes**
-- **Proof Screenshots**: [Anteprime GitHub] (Inserisci immagini della flag e dell'output di linPEAS)
-- **HTB Profile**: [Il tuo profilo pubblico] (Aggiungi link)
-- **Struttura Repository**:  
-  ```
-  /Cap
-  ├── PCAP-Analysis
-  ├── Exploit-Scripts
-  └── Prevention-Guide.md
-  ```
-
